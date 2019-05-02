@@ -11,7 +11,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="wikiwho_pickle",
-    version="1.0.3",
+    version="1.1",
     # Author details
     author="",
     author_email="wikiwho@gesis.org",
@@ -31,5 +31,5 @@ setuptools.setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['WikiWho==1.0.3', 'python-dateutil==2.7.3']
+    install_requires=['WikiWho==1.0.3', 'python-dateutil']
 )
